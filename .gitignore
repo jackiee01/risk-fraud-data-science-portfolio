@@ -10,12 +10,12 @@ __pycache__/
 venv/
 .env
 
-# Data files
+# Local/private data
 data/raw/
 data/private/
-*.csv
-*.xlsx
-*.parquet
+projects/**/data/*.csv
+projects/**/data/*.xlsx
+projects/**/data/*.parquet
 
 # OS files
 .DS_Store
